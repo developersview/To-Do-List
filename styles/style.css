@@ -13,6 +13,16 @@ body {
     font-weight: 300;
 }
 
+.Loadlist-wrapper {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-weight: 300;
+}
+
 .todo-wrapper h2 {
     margin: 0;
 }
@@ -47,7 +57,7 @@ body {
     color: #666;
 }
 
-.todo-wrapper .pretty-button {
+.pretty-button {
     margin: 10px 2px;
     padding: 5px 20px;
     border-radius: 15px;
@@ -59,7 +69,7 @@ body {
     font-size: small;
 }
 
-.todo-wrapper .pretty-button:hover {
+.pretty-button:hover {
     cursor: pointer;
     opacity: 0.75;
 }
@@ -89,4 +99,28 @@ body {
 
 .todo-wrapper #save-button {
     background-color: #49B749;
+}
+
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+    .todo-wrapper input {
+        width: 600px;
+    }
+    .Loadlist-wrapper {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+    .todo-wrapper input {
+        width: 400px;
+    }
+    .Loadlist-wrapper {
+        width: 75%;
+    }
 }
