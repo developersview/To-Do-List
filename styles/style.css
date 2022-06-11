@@ -12,3 +12,13 @@ body {
     padding: 30px;
     font-weight: 300;
 }
+
+.todo-wrapper h2 {
+    margin: 0;
+}
+
+.todo-wrapper p {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
